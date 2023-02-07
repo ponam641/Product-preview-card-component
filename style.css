@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+
+html, body{
+	font-family: 'Fraunces', serif;
+	font-weight: 700;
+	background-color: hsl(30, 38%, 92%);
+  	
+}
+
+.flex-container{
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 40%;
+	flex-wrap: wrap;
+}
+
+.card {
+	display: flex;
+	margin: auto;
+	background-color: hsl(0, 0%, 100%);
+	border-radius: 10px 10px 10px 10px;
+}
+
+img{
+	border-radius: 10px 0px 0px 10px;
+	height: 440px;
+	max-width: auto;
+}
+
+b{
+	color: hsl(158, 36%, 37%);
+	font-size: 30px;
+	font-family: 'Fraunces', serif;
+} 	
+
+button{
+	color:hsl(0, 0%, 100%);
+	font-size: 16px;
+	border-color: hsl(158, 36%, 37%);
+	border-width: 0;
+	border-radius: 5px;
+	background: hsl(158, 36%, 37%) url("icon-cart.svg") no-repeat left;*/
+	background-size: auto;
+}
+
+.btn-success{
+	padding: 1em 3em;
+	
+}
+
+.btn-success:hover{
+	-bs-btn-hover-bg:hsl(212, 21%, 14%);
+	-bs-btn-hover-border-color:hsl(212, 21%, 14%);
+	background-color:hsl(212, 21%, 14%);
+	border-color: hsl(212, 21%, 14%);
+	border-width: 0;
+	cursor: pointer;
+}
+
+p, .btn-success {
+	font-family: 'Montserrat';
+	font-weight: 500;
+}
+
+p{
+	margin-top: 0;
+	color: #2C3333;
+}
+
